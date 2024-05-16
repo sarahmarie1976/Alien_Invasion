@@ -25,7 +25,7 @@ class Ship:
         # Movement flags; start with a ship that's not moving.
         self.moving_right = False
         self.moving_left = False
-        
+
     def center_ship(self):
         """Center the ship on the screen."""
         self.rect.midbottom = self.screen_rect.midbottom
